@@ -3,8 +3,8 @@ import { DownloadIcon } from "lucide-react";
 export const AnimatedBorderBtn = ({ children }) => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Aher_Pankaj.pdf";
-    link.download = "Aher_Pankaj_CV.pdf";
+    link.href = "/pankaj-aher-cv.pdf";
+    link.download = "/pankaj-aher-cv.pdf";
     link.click();
   };
 
