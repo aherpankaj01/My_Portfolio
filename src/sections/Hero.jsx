@@ -89,7 +89,7 @@ const Hero = () => {
               <img
                 src={img}
                 alt="Aher Pankaj"
-                className="h-full max-h-[420px] w-auto object-cover rounded-2xl"
+                className="h-full max-h-125 w-auto object-cover rounded-2xl"
                 style={{ minHeight: "400px" }}
               />
             </div>
