@@ -3,6 +3,7 @@ import Button from "../../Components/Button";
 import { AnimatedBorderBtn } from "../../Components/AnimatedBorderBtn";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
+import { img } from "../../asset";
 
 const PARTICLES = Array.from({ length: 28 }, (_, i) => ({
   left: `${(i * 37.3 + 11) % 100}%`,
@@ -59,23 +60,29 @@ const Hero = () => {
           </div>
 
           {/* Headline */}
-          <div className="space-y-4 mb-8">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight animate-fade-in animation-delay-100">
-              Crafting <span className="text-primary glow-text">digital</span>
-              <br />
-              experiences with
-              <br />
-              <span className="font-serif italic font-normal text-white/90 text-6xl md:text-7xl lg:text-8xl">
-                precision.
-              </span>
-            </h1>
+          <div>
+            <div className="space-y-4 mb-8">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight animate-fade-in animation-delay-100">
+                Crafting <span className="text-primary glow-text">digital</span>
+                <br />
+                experiences with
+                <br />
+                <span className="font-serif italic font-normal text-white/90 text-6xl md:text-7xl lg:text-8xl">
+                  precision.
+                </span>
+              </h1>
 
-            <p className="text-lg text-muted-foreground max-w-xl leading-relaxed animate-fade-in animation-delay-200">
-              Hi, I'm{" "}
-              <span className="text-foreground font-medium">Aher Pankaj</span> —
-              a software engineer interested in Java, JavaScript & SQL. I build
-              scalable, performant web applications that users love.
-            </p>
+              <p className="text-lg text-muted-foreground max-w-xl leading-relaxed animate-fade-in animation-delay-200">
+                Hi, I'm{" "}
+                <span className="text-foreground font-medium">Aher Pankaj</span>{" "}
+                — a software engineer interested in Java, JavaScript, React JS,
+                DBMS & SQL. I build scalable, performant web applications that
+                users love.
+              </p>
+            </div>
+            <div>
+              <img src={img} alt="" srcset="" />
+            </div>
           </div>
 
           {/* CTA row */}
@@ -140,7 +147,6 @@ const Hero = () => {
           href="#skills"
           className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group"
         >
-          <span className="text-xs uppercase tracking-widest">Scroll</span>
           <ChevronDown className="w-5 h-5 animate-bounce" />
         </a>
       </div>
