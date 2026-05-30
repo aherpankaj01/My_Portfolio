@@ -60,7 +60,7 @@ const Hero = () => {
           </div>
 
           {/* Headline */}
-          <div>
+          <div className="flex items-center justify-center">
             <div className="space-y-4 mb-8">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight animate-fade-in animation-delay-100">
                 Crafting <span className="text-primary glow-text">digital</span>
