@@ -80,7 +80,7 @@ const Hero = () => {
                 users love.
               </p>
             </div>
-            <div className="flex-shrink-0">
+            <div className=" space-y-4 flex-1 min-w-0 ">
               <img
                 src={img}
                 alt="Pankaj Aher"
