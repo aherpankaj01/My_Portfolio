@@ -49,9 +49,25 @@ const Hero = () => {
 
       <div className="absolute inset-0 bg-gradient-to-b from-background/10 via-background/60 to-background pointer-events-none" />
 
+ 
+      <div className="absolute top-0 right-32 h-full w-[420px] pointer-events-none z-10 hidden lg:block">
+        <img
+          src={img}
+          alt="Aher Pankaj"
+          className="w-full h-full object-cover object-top animate-fade-in animation-delay-100"
+          style={{
+            maskImage:
+              "linear-gradient(to left, black 60%, transparent 100%), linear-gradient(to bottom, black 70%, transparent 100%)",
+            WebkitMaskImage:
+              "linear-gradient(to left, black 60%, transparent 100%), linear-gradient(to bottom, black 70%, transparent 100%)",
+            maskComposite: "intersect",
+            WebkitMaskComposite: "source-in",
+          }}
+        />
+      </div>
+
       <div className="container mx-auto px-6 pt-32 pb-20 relative z-10">
-        {/* ── expanded to max-w-6xl so justify-between has room to breathe ── */}
-        <div className="max-w-6xl">
+        <div className="max-w-3xl">
           <div className="animate-fade-in mb-8">
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary border border-primary/20">
               <Sparkles className="w-3.5 h-3.5" />
@@ -60,10 +76,9 @@ const Hero = () => {
             </span>
           </div>
 
-          {/* ── Headline + Image row ── */}
-          <div className="flex items-center justify-between gap-12 mb-8">
-            {/* Text side: flex-1 + min-w-0 prevents text from pushing the image out */}
-            <div className="space-y-4 flex-1 min-w-0">
+        
+          <div className="mb-8">
+            <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight animate-fade-in animation-delay-100">
                 Crafting <span className="text-primary glow-text">digital</span>
                 <br />
@@ -82,20 +97,9 @@ const Hero = () => {
                 users love.
               </p>
             </div>
-
-            {/* Image side: flex-shrink-0 stops it from collapsing.
-                h-full + self-stretch makes the image match the text column height. */}
-            <div className="flex-shrink-0 self-stretch flex items-center animate-fade-in animation-delay-100">
-              <img
-                src={img}
-                alt="Aher Pankaj"
-                className="h-full max-h-125 w-auto object-cover rounded-2xl"
-                style={{ minHeight: "400px" }}
-              />
-            </div>
           </div>
 
-          {/* CTA row */}
+          
           <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300 mb-10">
             <a href="#contact">
               <Button size="lg" className="group">
