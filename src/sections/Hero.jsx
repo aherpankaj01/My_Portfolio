@@ -3,7 +3,7 @@ import Button from "../../Components/Button";
 import { AnimatedBorderBtn } from "../../Components/AnimatedBorderBtn";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
-import { img } from "../../asset";
+import img from "../../asset/img.png";
 
 const PARTICLES = Array.from({ length: 28 }, (_, i) => ({
   left: `${(i * 37.3 + 11) % 100}%`,
