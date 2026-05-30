@@ -50,6 +50,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-background/10 via-background/60 to-background pointer-events-none" />
 
       <div className="container mx-auto px-6 pt-32 pb-20 relative z-10">
+        {/* ── expanded to max-w-6xl so justify-between has room to breathe ── */}
         <div className="max-w-6xl">
           <div className="animate-fade-in mb-8">
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary border border-primary/20">
@@ -59,8 +60,9 @@ const Hero = () => {
             </span>
           </div>
 
-          {/* Headline */}
+          {/* ── Headline + Image row ── */}
           <div className="flex items-center justify-between gap-12 mb-8">
+            {/* Text side: flex-1 + min-w-0 prevents text from pushing the image out */}
             <div className="space-y-4 flex-1 min-w-0">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight animate-fade-in animation-delay-100">
                 Crafting <span className="text-primary glow-text">digital</span>
@@ -80,11 +82,15 @@ const Hero = () => {
                 users love.
               </p>
             </div>
-            <div className=" space-y-4 flex-1 min-w-0 ">
+
+            {/* Image side: flex-shrink-0 stops it from collapsing.
+                h-full + self-stretch makes the image match the text column height. */}
+            <div className="flex-shrink-0 self-stretch flex items-center animate-fade-in animation-delay-100">
               <img
                 src={img}
-                alt="Pankaj Aher"
-                className="w-64 h-64 object-cover rounded-2xl"
+                alt="Aher Pankaj"
+                className="h-full max-h-[420px] w-auto object-cover rounded-2xl"
+                style={{ minHeight: "320px" }}
               />
             </div>
           </div>
