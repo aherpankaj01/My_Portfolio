@@ -49,8 +49,7 @@ const Hero = () => {
 
       <div className="absolute inset-0 bg-gradient-to-b from-background/10 via-background/60 to-background pointer-events-none" />
 
- 
-      <div className="absolute top-0 right-32 h-full w-[420px] pointer-events-none z-10 hidden lg:block">
+      {/* <div className="absolute top-0 right-32 h-full w-[420px] pointer-events-none z-10 hidden lg:block">
         <img
           src={img}
           alt="Aher Pankaj"
@@ -64,7 +63,7 @@ const Hero = () => {
             WebkitMaskComposite: "source-in",
           }}
         />
-      </div>
+      </div> */}
 
       <div className="container mx-auto px-6 pt-32 pb-20 relative z-10">
         <div className="max-w-3xl">
@@ -76,7 +75,6 @@ const Hero = () => {
             </span>
           </div>
 
-        
           <div className="mb-8">
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight animate-fade-in animation-delay-100">
@@ -99,7 +97,6 @@ const Hero = () => {
             </div>
           </div>
 
-          
           <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300 mb-10">
             <a href="#contact">
               <Button size="lg" className="group">
