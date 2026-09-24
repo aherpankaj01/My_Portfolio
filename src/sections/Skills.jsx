@@ -172,7 +172,223 @@ const skills = [
       </svg>
     ),
   },
-];
+      {
+        title: "Spring Boot",
+        color: "#6DB33F",
+        logo: (
+          <svg width="36" viewBox="0 0 128 128">
+            <circle cx="64" cy="64" r="56" fill="#6DB33F" />
+            <path
+              d="M46 44a30 30 0 1 0 36 0"
+              fill="none"
+              stroke="#fff"
+              strokeWidth="9"
+              strokeLinecap="round"
+            />
+            <line
+              x1="64"
+              y1="30"
+              x2="64"
+              y2="68"
+              stroke="#fff"
+              strokeWidth="9"
+              strokeLinecap="round"
+            />
+          </svg>
+        ),
+      },
+      {
+        title: "Spring Security",
+        color: "#6DB33F",
+        logo: (
+          <svg width="36" viewBox="0 0 128 128">
+            <path
+              fill="#6DB33F"
+              d="M64 8l46 17v34c0 30-19 51-46 61C37 110 18 89 18 59V25z"
+            />
+            <circle cx="64" cy="56" r="11" fill="#fff" />
+            <path fill="#fff" d="M59 62h10l4 26H55z" />
+          </svg>
+        ),
+      },
+      {
+        title: "JDBC",
+        color: "#5382A1",
+        logo: (
+          <svg width="36" viewBox="0 0 128 128">
+            <ellipse cx="64" cy="28" rx="42" ry="14" fill="#5382A1" />
+            <rect x="22" y="28" width="84" height="48" fill="#5382A1" />
+            <ellipse cx="64" cy="76" rx="42" ry="14" fill="#3F6885" />
+            <ellipse cx="64" cy="52" rx="42" ry="14" fill="#6C9BBB" opacity=".5" />
+            <rect x="50" y="88" width="28" height="18" rx="4" fill="#f89820" />
+            <rect x="56" y="104" width="6" height="16" rx="2" fill="#f89820" />
+            <rect x="66" y="104" width="6" height="16" rx="2" fill="#f89820" />
+          </svg>
+        ),
+      },
+      {
+        title: "Hibernate",
+        color: "#BCAE79",
+        logo: (
+          <svg width="36" viewBox="0 0 128 128">
+            <path
+              fill="#59666C"
+              d="M64 6l50 29v58l-50 29-50-29V35z"
+            />
+            <path fill="#BCAE79" d="M64 6l50 29-50 29-50-29z" />
+            <path
+              d="M46 44v40M82 44v40M46 64h36"
+              fill="none"
+              stroke="#fff"
+              strokeWidth="9"
+              strokeLinecap="round"
+            />
+          </svg>
+        ),
+      },
+      {
+        title: "JPA",
+        color: "#3E7CB1",
+        logo: (
+          <svg width="36" viewBox="0 0 128 128">
+            <rect width="128" height="128" rx="16" fill="#3E7CB1" />
+            <text
+              x="50%"
+              y="64%"
+              textAnchor="middle"
+              fontSize="44"
+              fontWeight="bold"
+              fill="#fff"
+            >
+              JPA
+            </text>
+          </svg>
+        ),
+      },
+      {
+        title: "Maven",
+        color: "#C71A36",
+        logo: (
+          <svg width="36" viewBox="0 0 128 128">
+            <path
+              d="M22 108V24l42 56 42-56v84"
+              fill="none"
+              stroke="#C71A36"
+              strokeWidth="14"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M84 20c14 4 22 14 22 30-14-2-22-12-22-30z"
+              fill="#C71A36"
+              opacity=".7"
+            />
+          </svg>
+        ),
+      },
+      {
+        title: "PostgreSQL",
+        color: "#336791",
+        logo: (
+          <svg width="36" viewBox="0 0 128 128">
+            <circle cx="64" cy="60" r="48" fill="#336791" />
+            <ellipse cx="42" cy="68" rx="14" ry="22" fill="#fff" opacity=".25" />
+            <path
+              d="M84 70q18 8 12 30-2 8-12 6"
+              fill="none"
+              stroke="#fff"
+              strokeWidth="8"
+              strokeLinecap="round"
+            />
+            <circle cx="78" cy="46" r="5" fill="#fff" />
+            <path
+              d="M60 108v14M78 108v14"
+              stroke="#336791"
+              strokeWidth="10"
+              strokeLinecap="round"
+            />
+          </svg>
+        ),
+      },
+      {
+        title: "Postman",
+        color: "#FF6C37",
+        logo: (
+          <svg width="36" viewBox="0 0 128 128">
+            <circle cx="64" cy="64" r="56" fill="#FF6C37" />
+            <circle cx="76" cy="46" r="10" fill="#fff" />
+            <path
+              d="M32 96l34-34"
+              stroke="#fff"
+              strokeWidth="12"
+              strokeLinecap="round"
+            />
+            <path
+              d="M70 70l16 16M60 80l12 12"
+              stroke="#fff"
+              strokeWidth="8"
+              strokeLinecap="round"
+            />
+          </svg>
+        ),
+      },
+      {
+        title: "Vercel",
+        color: "#FFFFFF",
+        logo: (
+          <svg width="36" viewBox="0 0 128 128">
+            <path fill="#fff" d="M64 18l52 92H12z" />
+          </svg>
+        ),
+      },
+      {
+        title: "Render",
+        color: "#46E3B7",
+        logo: (
+          <svg width="36" viewBox="0 0 128 128">
+            <rect width="128" height="128" rx="24" fill="#46E3B7" />
+            <path
+              d="M40 100V28h30a20 20 0 0 1 0 40H40M68 68l22 32"
+              fill="none"
+              stroke="#111"
+              strokeWidth="11"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        ),
+      },
+      {
+        title: "Neon DB",
+        color: "#00E599",
+        logo: (
+          <svg width="36" viewBox="0 0 128 128">
+            <path fill="#00E599" d="M20 20h88v88L74 78v30H20z" />
+            <path fill="#0b0b0b" opacity=".55" d="M42 42h20v30z" />
+          </svg>
+        ),
+      },
+      {
+        title: "Cloudinary",
+        color: "#3448C5",
+        logo: (
+          <svg width="36" viewBox="0 0 128 128">
+            <circle cx="42" cy="82" r="24" fill="#3448C5" />
+            <circle cx="68" cy="58" r="32" fill="#3448C5" />
+            <circle cx="98" cy="82" r="22" fill="#3448C5" />
+            <rect x="42" y="82" width="56" height="24" fill="#3448C5" />
+            <path
+              d="M64 96V70M52 80l12-12 12 12"
+              fill="none"
+              stroke="#fff"
+              strokeWidth="8"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        ),
+      },
+    ];
 
 const Skills = () => {
   return (

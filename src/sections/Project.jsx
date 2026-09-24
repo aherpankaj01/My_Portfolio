@@ -8,10 +8,10 @@ const projects = [
   {
     title: "Yojak — Blogging Platform",
     description:
-      "Modern full-stack blog platform with authentication, CRUD posts, Appwrite backend, Redux state management, and a polished Tailwind UI.",
+      "Yojak is a full-stack blogging platform designed to provide a complete and interactive space for users to create, publish, discover, and engage with blog content. The application includes secure user authentication, blog CRUD operations, comments, likes, user profiles, post filtering, and image uploads. The backend is built with Java and Spring Boot, using Spring Security and JWT for authentication and authorization, JPA/Hibernate for data access, and PostgreSQL for relational data management. The frontend is developed with React.js and Redux Toolkit for a responsive and dynamic user experience. Flyway is used for database migrations, while Cloudinary handles image storage. The application is containerized with Docker and deployed using Render, Neon PostgreSQL, and Vercel.",
     image: img,
-    tags: ["React", "Redux", "Appwrite", "Tailwind"],
-    link: "https://yojak-eight.vercel.app/",
+    tags: ["Java", "React", "Redux", "Spring Boot", "Tailwind", "Hibernate/JPA"],
+    link: "https://yojak-front-end.vercel.app/",
     github: "https://github.com/aherpankaj01/Yojak",
     featured: true,
   },

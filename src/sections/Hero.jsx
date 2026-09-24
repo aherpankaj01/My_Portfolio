@@ -90,7 +90,7 @@ const Hero = () => {
               <p className="text-lg text-muted-foreground max-w-xl leading-relaxed animate-fade-in animation-delay-200">
                 Hi, I'm{" "}
                 <span className="text-foreground font-medium">Aher Pankaj</span>{" "}
-                — a software engineer interested in Java, JavaScript, React JS,
+                — a software engineer interested in Java,Spring Boot, JavaScript, React JS,
                 DBMS & SQL. I build scalable, performant web applications that
                 users love.
               </p>
